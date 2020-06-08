@@ -1,0 +1,44 @@
+---
+system_and_user_generated_event_types:
+  state: hidden
+  display_name: System- and User-Generated Events
+  description: |-
+    Differentiate between system- and user-generated live events
+    in the Canvas Data Services tool
+  applies_to: SiteAdmin
+live_event_subscription_webhooks:
+  state: hidden
+  display_name: Live Event Subscription Webhooks
+  description: |-
+    Allow Live Event Subscription to be set to be delivered
+    via HTTPS webhooks
+  applies_to: SiteAdmin
+live_event_lti_documentation:
+  state: hidden
+  display_name: Live Event Tool Documentation
+  description: |-
+    Show embedded documentation in Live Events LTI Tool
+  applies_to: SiteAdmin
+developer_key_support_includes:
+  state: hidden
+  display_name: Developer Key Include Parameter Support
+  description: |-
+    Provides a flag on the Devloper Key to support Include Parameters on API requests
+  applies_to: SiteAdmin
+process_multiple_content_items_modules_index:
+  state: hidden
+  display_name: Process multiple content items from course modules page
+  description: |-
+    If enabled, Canvas will allow tools to return multiple content items
+    in a single request at the course modules page
+  applies_to: SiteAdmin
+site_admin_keys_only:
+  state: hidden
+  display_name: Only show site admin keys in the site admin UI
+  description: |-
+    If enabled, the site admin developer key UI will only show
+    site admin developer keys. Note that this only affects
+    Canvas instances where root accounts are on the same shard
+    as the site admin account. Behavior in other instances
+    already behaved in this way.
+  applies_to: SiteAdmin
